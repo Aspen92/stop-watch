@@ -70,6 +70,11 @@ button:hover {
   transition: all 0.5s;
 }
 
+.credits-div a {
+  text-decoration: none;
+  color: none;
+}
+
 .credits-div {
   margin-top: 100px;
 }
@@ -88,9 +93,4 @@ button:hover {
   transform: scale(1.1);
   color: #9d68ff;
   transition: all 0.5s;
-}
-
-.credits-div a {
-  text-decoration: none;
-  color: none;
 }
