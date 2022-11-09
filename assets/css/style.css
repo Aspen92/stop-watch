@@ -26,16 +26,16 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: 600;
   font-size: 3.8rem;
   text-align: center;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   color: white;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: 600;
   font-size: 3rem;
   letter-spacing: 0.1rem;
@@ -51,7 +51,7 @@ p {
 
 button {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: 600;
   background-color: #7743db;
   color: white;
@@ -61,6 +61,7 @@ button {
   border-radius: 7px;
   padding: 15px 35px;
   margin: 8px 8px;
+  transition: ease-out 1s;
 }
 
 button:hover {
@@ -69,20 +70,27 @@ button:hover {
   transition: all 0.5s;
 }
 
-.footer-container {
-  background-color: #7743db;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 150px;
+.credits-div {
+  margin-top: 100px;
 }
 
 .credits {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
   font-size: 1.1rem;
-  text-align: center;
-  margin-top: 30px;
   letter-spacing: 0.3rem;
   color: white;
+  transition: ease-out 1s;
+}
+
+.credits:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #9d68ff;
+  transition: all 0.5s;
+}
+
+.credits-div a {
+  text-decoration: none;
+  color: none;
 }
