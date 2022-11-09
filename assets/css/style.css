@@ -15,7 +15,7 @@ body {
 }
 
 .rabbit {
-  width: 20%;
+  width: 200px;
   height: auto;
   transition: ease-out 1s;
 }
