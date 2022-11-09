@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #3b3486;
+  height: 100%;
+  width: 100%;
+}
+
+.rabbit-div {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.rabbit {
+  width: 20%;
+  height: auto;
+  transition: ease-out 1s;
+}
+
+.rabbit:hover {
+  transform: rotate(10deg);
+  transition: 1s;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 3.8rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-color: #7743db;
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  border-radius: 7px;
+  padding: 15px 35px;
+  margin: 8px 8px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #9d68ff;
+  transition: all 0.5s;
+}
+
+.footer-container {
+  background-color: #7743db;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+}
+
+.credits {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 0.3rem;
+  color: white;
+}
